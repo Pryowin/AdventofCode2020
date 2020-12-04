@@ -1,0 +1,11 @@
+ecl:gry pid:860033327 eyr:2020 hcl:#fffffd
+byr:1965 iyr:2010 cid:147 hgt:60in
+
+ecl:xxx pid:8600333278 eyr:2019 hcl:fffffdd
+byr:1900 iyr:2009 cid:147 hgt:183cm
+
+ecl:gry pid:86003332 eyr:2031 hcl:#123abg
+byr:2019 iyr:2021 cid:147 hgt:183
+
+ecl:gry pid:860033327 eyr:exp hcl:#fffffdd
+byr:this iyr:201 1 cid:147 hgt:183in
