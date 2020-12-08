@@ -22,6 +22,14 @@ describe "Suitcase" do
             expect(@suitcase.contained_in["bright white"]).to eq ["light red", "dark orange"]
         end
     end
+    describe "#contains_with_count" do
+        it "dark olive contains 3 faded blue and 4 dotted black" do
+            expect(@suitcase.contains_with_count["dark olive"][0][:color]).to eq  "faded blue"
+            expect(@suitcase.contains_with_count["dark olive"][0][:count]).to eq  3 
+            expect(@suitcase.contains_with_count["dark olive"][1][:color]).to eq  "dotted black"
+            expect(@suitcase.contains_with_count["dark olive"][1][:count]).to eq  4
+        end
+    end
 end
 
 describe "Containers" do
@@ -49,3 +57,4 @@ describe "Containers" do
         end
     end
 end
+
